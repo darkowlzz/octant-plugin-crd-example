@@ -1,0 +1,7 @@
+apiVersion: foo.my.domain/v1alpha1
+kind: Box
+metadata:
+  name: box-sample
+spec:
+  # Add fields here
+  foo: bar

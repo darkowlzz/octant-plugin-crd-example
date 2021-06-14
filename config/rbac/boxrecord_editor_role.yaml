@@ -1,0 +1,24 @@
+# permissions for end users to edit boxrecords.
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: boxrecord-editor-role
+rules:
+- apiGroups:
+  - foo.my.domain
+  resources:
+  - boxrecords
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
+- apiGroups:
+  - foo.my.domain
+  resources:
+  - boxrecords/status
+  verbs:
+  - get

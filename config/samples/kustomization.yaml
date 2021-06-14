@@ -1,0 +1,5 @@
+resources:
+- foo_v1alpha1_box.yaml
+- foo_v1alpha1_boxrecord.yaml
+
+namespace: box

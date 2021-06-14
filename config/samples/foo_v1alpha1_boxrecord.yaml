@@ -1,0 +1,8 @@
+apiVersion: foo.my.domain/v1alpha1
+kind: BoxRecord
+metadata:
+  name: boxrecord-sample
+spec:
+  # Add fields here
+  foo: bar
+  refBox: box-sample
